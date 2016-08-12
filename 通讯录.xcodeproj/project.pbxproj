@@ -15,6 +15,8 @@
 		218DBCF31D5D990000C2701A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 218DBCF11D5D990000C2701A /* LaunchScreen.storyboard */; };
 		218DBCFE1D5D990000C2701A /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218DBCFD1D5D990000C2701A /* ___Tests.m */; };
 		218DBD091D5D990000C2701A /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 218DBD081D5D990000C2701A /* ___UITests.m */; };
+		218DBD181D5DC3C500C2701A /* SouSuoTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218DBD171D5DC3C500C2701A /* SouSuoTableView.m */; };
+		218DBD1B1D5DC3EB00C2701A /* ListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 218DBD1A1D5DC3EB00C2701A /* ListTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		218DBD041D5D990000C2701A /* 通讯录UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "通讯录UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		218DBD081D5D990000C2701A /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		218DBD0A1D5D990000C2701A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		218DBD161D5DC3C500C2701A /* SouSuoTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SouSuoTableView.h; sourceTree = "<group>"; };
+		218DBD171D5DC3C500C2701A /* SouSuoTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SouSuoTableView.m; sourceTree = "<group>"; };
+		218DBD191D5DC3EB00C2701A /* ListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableView.h; sourceTree = "<group>"; };
+		218DBD1A1D5DC3EB00C2701A /* ListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				218DBCE71D5D990000C2701A /* AppDelegate.m */,
 				218DBCE91D5D990000C2701A /* ViewController.h */,
 				218DBCEA1D5D990000C2701A /* ViewController.m */,
+				218DBD161D5DC3C500C2701A /* SouSuoTableView.h */,
+				218DBD171D5DC3C500C2701A /* SouSuoTableView.m */,
+				218DBD191D5DC3EB00C2701A /* ListTableView.h */,
+				218DBD1A1D5DC3EB00C2701A /* ListTableView.m */,
 				218DBCEC1D5D990000C2701A /* Main.storyboard */,
 				218DBCEF1D5D990000C2701A /* Assets.xcassets */,
 				218DBCF11D5D990000C2701A /* LaunchScreen.storyboard */,
@@ -271,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				218DBCEB1D5D990000C2701A /* ViewController.m in Sources */,
+				218DBD181D5DC3C500C2701A /* SouSuoTableView.m in Sources */,
 				218DBCE81D5D990000C2701A /* AppDelegate.m in Sources */,
+				218DBD1B1D5DC3EB00C2701A /* ListTableView.m in Sources */,
 				218DBCE51D5D990000C2701A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
